@@ -1,4 +1,4 @@
-# Cookiecutter Django
+# Cookiecutter Django MySQL
 
 [![Build Status](https://img.shields.io/github/workflow/status/cookiecutter/cookiecutter-django/CI/master)](https://github.com/cookiecutter/cookiecutter-django/actions?query=workflow%3ACI)
 [![Documentation Status](https://readthedocs.org/projects/cookiecutter-django/badge/?version=latest)](https://cookiecutter-django.readthedocs.io/en/latest/?badge=latest)
@@ -7,7 +7,7 @@
 [![Code Helpers Badge](https://www.codetriage.com/cookiecutter/cookiecutter-django/badges/users.svg)](https://www.codetriage.com/cookiecutter/cookiecutter-django)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Django is a framework for jumpstarting
+Powered by [Cookiecutter](https://github.com/cookiecutter/cookiecutter), Cookiecutter Django MySQL is a framework for jumpstarting
 production-ready Django projects quickly.
 
 - Documentation: <https://cookiecutter-django.readthedocs.io/en/latest/>
@@ -19,6 +19,7 @@ production-ready Django projects quickly.
 
 - For Django 3.2
 - Works with Python 3.9
+- Includes supportt for MySQL in addition to Postgresql
 - Renders Django projects with 100% starting test coverage
 - Twitter [Bootstrap](https://github.com/twbs/bootstrap) v5
 - [12-Factor](http://12factor.net/) based settings via [django-environ](https://github.com/joke2k/django-environ)
@@ -50,7 +51,7 @@ _These features can be enabled during initial project setup._
 ## Constraints
 
 - Only maintained 3rd party libraries are used.
-- Uses PostgreSQL everywhere: 10.19 - 14.1 ([MySQL fork](https://github.com/mabdullahadeel/cookiecutter-django-mysql) also available).
+- Use MySQL everywhere.
 - Environment variables for configuration (This won't work with Apache/mod_wsgi).
 
 ## Support this Project!
@@ -89,7 +90,7 @@ First, get Cookiecutter. Trust me, it's awesome:
 
 Now run it against this repo:
 
-    $ cookiecutter https://github.com/cookiecutter/cookiecutter-django
+    $ cookiecutter https://github.com/mabdullahadeel/cookiecutter-django-mysql
 
 You'll be prompted for some values. Provide them, then a Django project will be created for you.
 
@@ -206,8 +207,8 @@ Scattered throughout the Python and HTML of this project are places marked with 
 
 ## For MySQL users
 
-To get full MySQL support in addition to the default Postgresql, you can use this fork of the cookiecutter-django:
-https://github.com/mabdullahadeel/cookiecutter-django-mysql
+If only Postgresql support (and not MySQL) is required, you can go back to the repo this was forked from:
+https://github.com/cookiecutter/cookiecutter-django
 
 ## Releases
 
