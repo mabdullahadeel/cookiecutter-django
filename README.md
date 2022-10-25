@@ -19,7 +19,7 @@ production-ready Django projects quickly.
 
 - For Django 3.2
 - Works with Python 3.9
-- Includes supportt for MySQL in addition to Postgresql
+- Includes support for MySQL in addition to Postgresql
 - Renders Django projects with 100% starting test coverage
 - Twitter [Bootstrap](https://github.com/twbs/bootstrap) v5
 - [12-Factor](http://12factor.net/) based settings via [django-environ](https://github.com/joke2k/django-environ)
